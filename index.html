@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atom Model Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Atom Model Generator</h1>
+    
+    <form id="atomForm">
+        <label for="elementInput">Enter Element Symbol:</label>
+        <input type="text" id="elementInput" name="elementInput" required>
+        <button type="button" onclick="displayAtomModel()">Display Atom Model</button>
+    </form>
+
+    <div id="output"></div>
+
+    <canvas id="atomCanvas" width="400" height="400"></canvas>
+
+    
+</body>
+</html>
+
