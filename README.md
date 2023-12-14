@@ -1,3 +1,3 @@
 # AtomImagined
 
-AtomImagined is website which can generate Bohr Atomic Models for Elements upto atomic number 60.
+AtomImagined is the website that can generate Bohr Atomic Models for all the Elements.
